@@ -1,0 +1,71 @@
+{% load static %}
+<link 
+    rel="stylesheet"
+    type="text/css"
+    href="{% static 'carbon/css/bootstrap.css' %}"
+/>
+<div class="p-3 mb-2 bg-light text-dark">
+
+<div class="mx-auto" style="width: 18rem;">
+  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <p class="h3">Select Form of Transportation</p>
+  </nav>
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-sm-5 col-md-6">
+        <div class="text-center">
+          <div class="p-3 border bg-white">  
+            <img src="{% static 'img/Car.png' %}" class="img-fluid" alt="...">
+            <button type="button" class="btn btn-light btn-lg">Car</button>
+          </div>
+        </div>
+      </div>
+          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+            <div class="p-3 border bg-white">  
+              <div class="text-center">
+                <img src="{% static 'img/subway.png' %}" class="img-fluid" alt="...">
+                <button type="button" class="btn btn-light btn-lg">Subway</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-sm-5 col-md-6">
+            <div class="p-3 border bg-white">  
+              <div class="text-center">
+              <img src="{% static 'img/scooter.png' %}" class="img-fluid" alt="...">
+                <button type="button" class="btn btn-light btn-lg"> Escooter</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+            <div class="p-3 border bg-white">  
+            <div class="text-center">
+              <img src="{% static 'img/Bus.png' %}" class="img-fluid" alt="...">
+                <button type="button" class="btn btn-light btn-lg">Bus</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-3">
+          <div class="col-sm-5 col-md-6">
+            <div class="p-3 border bg-white">  
+            <div class="text-center">
+              <img src="{% static 'img/Bicycle.png' %}" class="img-fluid" alt="...">
+                <button type="button" class="btn btn-light btn-lg">Bicycle</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+            <div class="p-3 border bg-white">  
+              <div class="text-center">
+              <img src="{% static 'img/motorcycle.png' %}" class="img-fluid" alt="...">
+                <button type="button" class="btn btn-light btn-lg">Motorcycle</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
